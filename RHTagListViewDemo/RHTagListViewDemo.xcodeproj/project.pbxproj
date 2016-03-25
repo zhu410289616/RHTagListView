@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8391A3AA1CA4DB4C007D6262 /* RHTagListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391A3A91CA4DB4C007D6262 /* RHTagListViewCell.m */; };
+		8391A3AD1CA4DB7A007D6262 /* RHTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391A3AC1CA4DB7A007D6262 /* RHTagListView.m */; };
 		83ECA9481C9D950E00325EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ECA9471C9D950E00325EA1 /* main.m */; };
 		83ECA94B1C9D950E00325EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ECA94A1C9D950E00325EA1 /* AppDelegate.m */; };
 		83ECA94E1C9D950E00325EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ECA94D1C9D950E00325EA1 /* ViewController.m */; };
 		83ECA9511C9D950E00325EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECA94F1C9D950E00325EA1 /* Main.storyboard */; };
 		83ECA9531C9D950E00325EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ECA9521C9D950E00325EA1 /* Assets.xcassets */; };
 		83ECA9561C9D950E00325EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECA9541C9D950E00325EA1 /* LaunchScreen.storyboard */; };
-		83ECA95F1C9D961F00325EA1 /* RHTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ECA95E1C9D961F00325EA1 /* RHTagListView.m */; };
-		83ECA9621C9D964200325EA1 /* RHTagListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ECA9611C9D964200325EA1 /* RHTagListViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8391A3A81CA4DB4C007D6262 /* RHTagListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTagListViewCell.h; sourceTree = "<group>"; };
+		8391A3A91CA4DB4C007D6262 /* RHTagListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTagListViewCell.m; sourceTree = "<group>"; };
+		8391A3AB1CA4DB7A007D6262 /* RHTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTagListView.h; sourceTree = "<group>"; };
+		8391A3AC1CA4DB7A007D6262 /* RHTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTagListView.m; sourceTree = "<group>"; };
 		83ECA9431C9D950E00325EA1 /* RHTagListViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHTagListViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83ECA9471C9D950E00325EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83ECA9491C9D950E00325EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		83ECA9521C9D950E00325EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83ECA9551C9D950E00325EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83ECA9571C9D950E00325EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83ECA95D1C9D961F00325EA1 /* RHTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTagListView.h; sourceTree = "<group>"; };
-		83ECA95E1C9D961F00325EA1 /* RHTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTagListView.m; sourceTree = "<group>"; };
-		83ECA9601C9D964200325EA1 /* RHTagListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTagListViewCell.h; sourceTree = "<group>"; };
-		83ECA9611C9D964200325EA1 /* RHTagListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTagListViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8391A3A71CA4DB26007D6262 /* RHTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				8391A3A81CA4DB4C007D6262 /* RHTagListViewCell.h */,
+				8391A3A91CA4DB4C007D6262 /* RHTagListViewCell.m */,
+				8391A3AB1CA4DB7A007D6262 /* RHTagListView.h */,
+				8391A3AC1CA4DB7A007D6262 /* RHTagListView.m */,
+			);
+			name = RHTagListView;
+			path = ../RHTagListView;
+			sourceTree = "<group>";
+		};
 		83ECA93A1C9D950E00325EA1 = {
 			isa = PBXGroup;
 			children = (
+				8391A3A71CA4DB26007D6262 /* RHTagListView */,
 				83ECA9451C9D950E00325EA1 /* RHTagListViewDemo */,
 				83ECA9441C9D950E00325EA1 /* Products */,
 			);
@@ -73,10 +86,6 @@
 				83ECA9541C9D950E00325EA1 /* LaunchScreen.storyboard */,
 				83ECA9571C9D950E00325EA1 /* Info.plist */,
 				83ECA9461C9D950E00325EA1 /* Supporting Files */,
-				83ECA95D1C9D961F00325EA1 /* RHTagListView.h */,
-				83ECA95E1C9D961F00325EA1 /* RHTagListView.m */,
-				83ECA9601C9D964200325EA1 /* RHTagListViewCell.h */,
-				83ECA9611C9D964200325EA1 /* RHTagListViewCell.m */,
 			);
 			path = RHTagListViewDemo;
 			sourceTree = "<group>";
@@ -162,9 +171,9 @@
 			files = (
 				83ECA94E1C9D950E00325EA1 /* ViewController.m in Sources */,
 				83ECA94B1C9D950E00325EA1 /* AppDelegate.m in Sources */,
-				83ECA9621C9D964200325EA1 /* RHTagListViewCell.m in Sources */,
 				83ECA9481C9D950E00325EA1 /* main.m in Sources */,
-				83ECA95F1C9D961F00325EA1 /* RHTagListView.m in Sources */,
+				8391A3AD1CA4DB7A007D6262 /* RHTagListView.m in Sources */,
+				8391A3AA1CA4DB4C007D6262 /* RHTagListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +322,7 @@
 				83ECA95C1C9D950E00325EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

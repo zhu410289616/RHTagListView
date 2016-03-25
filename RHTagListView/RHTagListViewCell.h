@@ -2,7 +2,7 @@
 //  RHTagListViewCell.h
 //  RHTagListViewDemo
 //
-//  Created by zhuruhong on 16/3/19.
+//  Created by zhuruhong on 16/3/25.
 //  Copyright © 2016年 zhuruhong. All rights reserved.
 //
 
@@ -10,6 +10,7 @@
 
 @interface RHTagListViewCell : UIView
 
-@property (nonatomic, assign) NSInteger index;
+@property (nonatomic, strong, readonly) UIView *contentView;
+@property (nonatomic, strong, readonly) UILabel *textLabel;
 
 @end
